@@ -10,12 +10,12 @@ const lowercase = string => {
   return string.toLowerCase();
 };
 
-function countCharacters (string) {
-  // your code here
+const countCharacters = string => {
+  return string.length;
 };
 
-function firstCharacter (string) {
-  // your code here
+const firstCharacter = string => {
+  return string[0];
 };
 
 function firstCharacters (string, n) {
