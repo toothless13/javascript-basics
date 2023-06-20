@@ -1,5 +1,9 @@
-function negate(a) {
-  // your code here
+// function negate(a) {
+//   // your code here
+// };
+
+const negate = a => {
+  return !a;
 };
 
 function both(a, b) {
