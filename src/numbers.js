@@ -14,17 +14,17 @@ const divide = (a, b) => {
   return a / b;
 };
 
-// function power (a, b) {
-//   // your code here
-// }
-
 const power = (a, b) => {
   return Math.pow(a, b);
 };
 
-function round (a) {
-  // your code here
-}
+// function round (a) {
+//   // your code here
+// }
+
+const round = (a) => {
+  return Math.round(a);
+};
 
 function roundUp (a) {
   // your code here
