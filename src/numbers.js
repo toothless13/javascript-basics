@@ -1,15 +1,10 @@
-// function add (a, b) {
-//   // your code here
-//   return a + b;
-// }
-
 const add = (a, b) => {
   return a + b;
 };
 
-function subtract (a, b) {
-  // your code here
-}
+const subtract = (a, b) => {
+  return a - b;
+};
 
 function multiply (a, b) {
   // your code here
