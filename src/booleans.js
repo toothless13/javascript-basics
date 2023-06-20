@@ -10,8 +10,8 @@ const both = (a, b) => {
   }
 };
 
-function either(a, b) {
-  // your code here
+const either = (a, b) => {
+  return a || b ? true : false;
 };
 
 function none(a, b) {
