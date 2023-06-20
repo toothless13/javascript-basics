@@ -22,8 +22,16 @@ const one = (a, b) => {
   return ((a && !b) || (!a && b)) ? true : false;
 }
 
-function truthiness(a) {
-  // your code here
+// function truthiness(a) {
+//   // your code here
+// };
+
+const truthiness = a => {
+  if(a) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 function isEqual(a, b) {
