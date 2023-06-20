@@ -14,8 +14,12 @@ const either = (a, b) => {
   return a || b ? true : false;
 };
 
-function none(a, b) {
-  // your code here
+// function none(a, b) {
+//   // your code here
+// };
+
+const none = (a, b) => {
+  return !a && !b ? true : false;
 };
 
 function one(a, b) {
