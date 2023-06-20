@@ -18,8 +18,12 @@ const firstCharacter = string => {
   return string[0];
 };
 
-function firstCharacters (string, n) {
-  // your code here
+// function firstCharacters (string, n) {
+//   // your code here
+// };
+
+const firstCharacters = (string, n) => {
+  return string.slice(0, n);
 };
 
 module.exports = {
