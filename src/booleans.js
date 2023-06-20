@@ -38,8 +38,8 @@ const isLessThanOrEqualTo = (a, b) => {
   return a <= b ? true : false;
 };
 
-function isOdd(a) {
-  // your code here
+const isOdd = a => {
+  return a % 2 != 0 ? true : false;
 };
 
 function isEven(a) {
