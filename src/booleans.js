@@ -42,8 +42,8 @@ const isOdd = a => {
   return a % 2 != 0 ? true : false;
 };
 
-function isEven(a) {
-  // your code here
+const isEven = a => {
+  return a % 2 === 0 ? true : false;
 };
 
 function isSquare(a) {
