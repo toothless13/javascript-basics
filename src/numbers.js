@@ -38,9 +38,13 @@ const quotient = (a, b) => {
   return Math.trunc(a / b);
 };
 
-function remainder (a, b) {
-  // your code here
-}
+// function remainder (a, b) {
+//   // your code here
+// }
+
+const remainder = (a, b) => {
+  return a % b;
+};
 
 module.exports = {
   add,
