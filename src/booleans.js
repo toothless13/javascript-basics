@@ -1,13 +1,13 @@
-// function negate(a) {
-//   // your code here
-// };
-
 const negate = a => {
   return !a;
 };
 
-function both(a, b) {
-  // your code here
+const both = (a, b) => {
+  if(a && b) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 function either(a, b) {
