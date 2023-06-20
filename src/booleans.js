@@ -30,16 +30,12 @@ const isEqual = (a, b) => {
   return a === b ? true : false;
 };
 
-// function isGreaterThan(a, b) {
-//   // your code here
-// };
-
 const isGreaterThan = (a, b) => {
   return a > b ? true : false;
 };
 
-function isLessThanOrEqualTo(a, b) {
-  // your code here
+const isLessThanOrEqualTo = (a, b) => {
+  return a <= b ? true : false;
 };
 
 function isOdd(a) {
