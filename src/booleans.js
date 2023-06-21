@@ -46,8 +46,12 @@ const isEven = a => {
   return a % 2 === 0 ? true : false;
 };
 
-function isSquare(a) {
-  // your code here
+const isSquare = a => {
+  if (a === 0 || (a % (Math.sqrt(a)) === 0)) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 function startsWith(char, string) {
