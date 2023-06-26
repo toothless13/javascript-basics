@@ -1,18 +1,10 @@
-// const getNthElement = (index, array) => {
-//   // your code 
-//   if (index > (array.length - 1)) {
-//     return array[(index - array.length)];
-//   } else {
-//     return array[index];
-//   }
-// };
-
 const getNthElement = (index, array) => {
   return index > (array.length - 1) ? array[index - array.length] : array[index];
 };
 
 const arrayToCSVString = array => {
-  // your code here
+  // your code 
+  return array.join(',');
 };
 
 const csvStringToArray = string => {
