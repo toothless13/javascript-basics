@@ -65,11 +65,25 @@ const removeSpaces = string => {
 };
 
 const sumNumbers = numbers => {
-  // your code here
+  return numbers.reduce((acc, cur) => {
+    return acc + cur;
+  });
 };
 
 const sortByLastLetter = strings => {
-  // your code here
+  return strings.sort((a, b) => {
+    const aLastLetter = a[a.length - 1];
+    const bLastLetter = b[b.length - 1];
+    if (aLastLetter < bLastLetter) {
+      return -1;
+    }
+    if (aLastLetter > bLastLetter) {
+      return 1;
+    }
+    if (aLastLetter === bLastLetter) {
+      return 0;
+    }
+  });
 };
 
 module.exports = {
