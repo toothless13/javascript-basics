@@ -57,7 +57,11 @@ const elementsStartingWithAVowel = strings => {
 };
 
 const removeSpaces = string => {
-  // your code here
+  // return string.split(' ').join('');
+  const strings = string.split(' ');
+  return strings.reduce((acc, val) => {
+    return `${acc}${val}`;
+  });
 };
 
 const sumNumbers = numbers => {
