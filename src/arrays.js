@@ -23,11 +23,11 @@ const removeNthElement = (index, array) => {
 };
 
 const numbersToStrings = numbers => {
-  // your code here
+  return numbers.map(number => number.toString());
 };
 
 const uppercaseWordsInArray = strings => {
-  // your code here
+  return strings.map(string => string.toUpperCase());
 };
 
 const reverseWordsInArray = strings => {
