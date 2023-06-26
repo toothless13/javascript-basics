@@ -2,7 +2,7 @@ const createPerson = (name, age) => {
   return {
     name,
     age
-  }
+  };
 };
 
 const getName = object => {
@@ -14,13 +14,13 @@ const getProperty = (property, object) => {
 };
 
 const hasProperty = (property, object) => {
-  return object[property] ? true : false;
-  // can also be written as return object[property];
+  // return object[property] ? true : false;
+  return object[property];
 };
 
 const isOver65 = person => {
-  return person.age > 65 ? true : false;
-  // can also be written as return person.age > 65;
+  // return person.age > 65 ? true : false;
+  return person.age > 65;
 };
 
 const getAges = people => {
