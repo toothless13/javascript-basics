@@ -15,10 +15,12 @@ const getProperty = (property, object) => {
 
 const hasProperty = (property, object) => {
   return object[property] ? true : false;
+  // can also be written as return object[property];
 };
 
 const isOver65 = person => {
   return person.age > 65 ? true : false;
+  // can also be written as return person.age > 65;
 };
 
 const getAges = people => {
@@ -34,7 +36,8 @@ const findHondas = cars => {
 };
 
 const averageAge = people => {
-  // your code here
+  const totalAge = people.reduce((acc, cur) => acc + cur.age, 0);
+  return totalAge / people.length;
 };
 
 const createTalkingPerson = (name, age) => {
