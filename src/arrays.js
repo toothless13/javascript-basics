@@ -1,5 +1,14 @@
+// const getNthElement = (index, array) => {
+//   // your code 
+//   if (index > (array.length - 1)) {
+//     return array[(index - array.length)];
+//   } else {
+//     return array[index];
+//   }
+// };
+
 const getNthElement = (index, array) => {
-  // your code here
+  return index > (array.length - 1) ? array[index - array.length] : array[index];
 };
 
 const arrayToCSVString = array => {
